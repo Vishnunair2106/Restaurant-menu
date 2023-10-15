@@ -8,13 +8,13 @@ body {
 
 h1,
 h2 {
-    color: darkred;
+    color: rgb(172, 30, 30);
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: rgb(72, 167, 72);
 }
 
 img {
@@ -29,7 +29,7 @@ main {
 
 nav {
     background-color: beige;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav ul {
