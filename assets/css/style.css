@@ -128,12 +128,7 @@ th {
 
 /* popular section starts */
 
-.popular{
 
-}
-.popular .popular-foods{
-
-}
 .popular .popular-foods h2{
     text-align: center;
     font-size: 2rem;
@@ -180,9 +175,8 @@ th {
     top: 8px;
     left: 8px;
 }
-.popular-item .popular-details{
 
-}
+
 .popular-item .popular-details h3{
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -220,12 +214,8 @@ th {
 
 /* delivery section starts */
 
-.delivery{
 
-}
-.delivery .online-delivery{
 
-}
 .delivery .online-delivery h2{
     text-align: center;
     font-size: 2rem;
@@ -277,9 +267,9 @@ th {
 
 /* chef section starts */
 
-.kitchen{
 
-}
+
+
 .kitchen .kitchen-exp{
     padding-bottom: 60px;
     margin-bottom: 10px;
