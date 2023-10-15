@@ -531,3 +531,220 @@ li{
     transition: all .3s ease;
 
 }
+.review .client-review .our-client .client .client-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid #3131a3;
+    margin-top: -6.5rem;
+    transition: all .5s ease;
+}
+.review .client-review .our-client .client:hover .client-img img{
+    transform: scale(1.1);
+}
+.review .client-review .our-client .client:hover .client-text i{
+    color: rgb(59, 19, 151);
+    font-size: 1.4rem;
+}
+.review .client-review .our-client .client .client-text{
+    margin-top: -100px;
+}
+.review .client-review .our-client .client .client-text h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 0;
+    color: #fff;
+    text-align: center;
+}
+.review .client-review .our-client .client .client-text i{
+    color: rgb(255,196,0);
+    font-size: 1.2rem;
+    transition: all .5s ease
+}
+.review .client-review .our-client .client .client-text p{
+    font-size: 1rem;
+    color: rgb(211,204,204);
+    padding: 10px 10px 25px 10px;
+}
+
+/* review section ends */
+
+/* order section starts */
+
+.order{
+
+}
+.order .order-now{
+    margin-bottom: 20px;
+}
+.order .order-now h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #666;
+    padding: 20px 0;
+}
+.order .order-now h2 span{
+    color: orangered;
+}
+.order .order-now .order-food{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+.order .order-now .order-food .order-img b-cheif{
+    width: 500px;
+    height: 300px;
+    
+}
+.order .order-now .order-food .order-form{
+    width: 500px;
+}
+.order .order-now .order-food .order-form .fildname{
+    display: inline;
+}
+.order .order-now .order-food .order-form .fildname{
+    display: inline;
+}
+.order .order-now .order-food .order-form .fildname .name{
+    width: 245px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    margin-right: 5px;
+    position: relative;
+}
+#focus:focus{
+    background-color: rgb(187,255,0);
+    border: 2px solid rgb(252, 82,4);
+}
+
+.order .order-now .order-food .order-form .fildemail{
+    display: inline;
+}
+.order .order-now .order-food .order-form .fildemail .email{
+    width: 245px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+.order.order-now .order-food .order-form .fildnum{
+    display: inline; 
+}
+.order .order-now .order-food .order-form .fildnum .num{
+    width: 245px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    margin-right: 5px;
+}
+.order .order-now .order-food .order-form .fildfood{
+    display: inline;
+}
+.order .order-now .order-food .order-form .fildfood .food-name{
+    width: 245px;
+    height: 45px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+}
+
+.order .order-now .order-food .order-form .fildadd .address{
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 2-x solid lightgray;
+    resize: none;
+}
+
+.order .order-now .order-food .order-form .fildsubmit .submit{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 3px solid rgb(5,255,242);
+    outline: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.order-food .order-form .fildsubmit .submit:hover{
+    background: orangered;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* ends order section */
+
+/* footer section */
+
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(10, 0, 0);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: rgb(29, 17, 17);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-bottom{
+    background: rgb(228, 29, 29);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}    
+
+/* footer ends */
