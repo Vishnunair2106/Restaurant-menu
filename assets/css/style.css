@@ -84,6 +84,199 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+
+.special-item .item .dish-theme img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.special-item .item .dish-theme h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    color: #333;
+}
+.special-item .item .dish-theme p{
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    color: #666;
+}
+.special-item .item .dish-inside{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: all .3s ease;
+}
+.special-item .item .dish-inside img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.special-item .item:hover .dish-inside{
+    top: 0;
+}
+.special-item .item:hover .dish-inside{
+    transform: translateY(0%);
+}
+
+/* special section ends */
+
+/* popular section starts */
+
+
+.popular .popular-foods h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #666;
+    padding: 20px 0;
+}
+.popular .popular-foods h2 span{
+    color: orangered;
+}
+.popular .popular-foods .popular-foods-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.popular .popular-foods .popular-foods-item .popular-item{
+    min-width: 220px;
+    background-color: rgb(247,234,223);
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px 0 #666;
+    cursor: pointer;
+}
+.popular-item .popular-img{
+    position: relative;
+}
+.popular-item .popular-img img{
+    min-width: 200px;
+    height: 133px;
+    display: block;
+    border-radius: 5px;
+}
+.popular-item .popular-img p{
+    display: inline-block;
+    background-color: rgb(255,60,0);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+
+.popular-item .popular-details h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #333;
+
+}
+.popular-item .popular-details i{
+    color: rgb(255, 72, 0);
+    font-size: 1.5rem;
+}
+.popular-item .popular-btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.popular-item .popular-btn a{
+    color: rgb(253, 15, 15);
+    font-size: 1.5rem;
+    border: 2px solid rgb(145, 74, 13);
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+.popular-item .popular-btn a:hover{
+    background-color: rgb(163, 106, 32);
+    color: #fff;
+}
+.popular-foods-item .popular-item:hover{
+    border: 2px solid;
+    border-color: orangered;
+} 
+
+/* popular section ends */
+
+/* delivery section starts */
+
+
+
+.delivery .online-delivery h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #666;
+    padding: 20px 0;
+}
+.delivery .online-delivery h2 span{
+    color: orangered;
+}
+.delivery .online-delivery .del-process{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.delivery .online-delivery .del-process .process{
+    width: 200px;
+    height: 280px;
+
+    text-align: center;
+}
+.delivery .online-delivery .del-process .process-img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 20px 0 black;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 8px solid#0e0592;
+}
+.delivery .online-delivery .del-process .process-img img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+}
+.delivery .online-delivery .del-process .process p{
+    color: #333;
+    font-size: 1.5rem;
+    display: block;
+    text-transform: capitalize;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* delivery section ends */
+
+/* chef section starts */
+
+
+
+
+.kitchen .kitchen-exp{
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+}
+.kitchen .kitchen-exp h2{
+=======
 *{
     margin: 0;
     /* padding: 0; */
@@ -271,20 +464,55 @@ li{
 .special .special-dish{
 }
 .special .special-dish h2{
+
     text-align: center;
     font-size: 2rem;
     text-transform: capitalize;
     color: #666;
     padding: 20px 0;
 }
+
+.kitchen .kitchen-exp h2 span{
+    color: orangered;
+}
+.kitchen .kitchen-exp .our-chef{
+=======
 .special .special-dish h2 span{
     color: orangered;
 }
 .special .special-dish .special-item{
+
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: space-around;
+
+}
+.kitchen-exp .our-chef .chef{
+    width: 280px;
+    position: relative;
+    box-shadow: 0 8px 35px 0 rgb(0,0,0);
+    border-radius: 10px;
+}
+.our-chef .chef .chef-img{
+    width: 200px;
+    height: 380px;
+}
+.our-chef .chef .chef-title{
+    background-color: rgb(57,6,151);
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 0;
+    transform: translateY(50%);
+    box-shadow: 0 4px 10px 0 rgb(0,0,0);
+}
+.kitchen-exp .our-chef .chef:hover .chef-title{
+    transform: translateY(-5px);
+    transition: all .5s ease;
+    background-color: rgb(245,124,11);
+=======
     padding-bottom: 20px;
 }
 .special-item .item{
@@ -301,4 +529,5 @@ li{
     width: 100%;
     padding: 20px;
     transition: all .3s ease;
+
 }
